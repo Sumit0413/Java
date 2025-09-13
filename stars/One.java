@@ -1,27 +1,35 @@
 import java.util.Scanner;
 
 public class One {
- public static void main(String[] args){
-    System.out.println("Stars printing");
+   public static void main(String[] args) {
+      System.out.println("Stars printing");
 
-    Scanner sc = new Scanner(System.in);
-    System.out.print("Enter no of Rows : ");
-    int row = sc.nextInt();
+      /*
+      
+       * * * * 
+       * * * *
+       * * * *
+       * * * *
+       
+       */
 
-     Scanner src = new Scanner(System.in);
-    System.out.print("Enter no of Rows : ");
-    int col = sc.nextInt();
+      Scanner sc = new Scanner(System.in);
+      System.out.print("Enter no of Rows : ");
+      int row = sc.nextInt();
 
-      for(int i = 1;i<=row;i++){
-         for(int j =1 ; j<=col ; j++){
+      Scanner src = new Scanner(System.in);
+      System.out.print("Enter no of Rows : ");
+      int col = sc.nextInt();
+
+      for (int i = 1; i <= row; i++) {
+         for (int j = 1; j <= col; j++) {
             System.out.print("*");
          }
          System.out.println();
       }
 
+      sc.close();
+      src.close();
 
-    sc.close();
-    src.close();
-
- }   
+   }
 }
