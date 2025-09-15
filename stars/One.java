@@ -17,19 +17,17 @@ public class One {
       System.out.print("Enter no of Rows : ");
       int row = sc.nextInt();
 
-      Scanner src = new Scanner(System.in);
-      System.out.print("Enter no of Rows : ");
-      int col = sc.nextInt();
+    
 
       for (int i = 1; i <= row; i++) {
-         for (int j = 1; j <= col; j++) {
+         for (int j = 1; j <= row; j++) {
             System.out.print("*");
          }
          System.out.println();
       }
 
       sc.close();
-      src.close();
+      
 
    }
 }
