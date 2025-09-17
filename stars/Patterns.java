@@ -234,7 +234,145 @@ for(int i = 1; i <= rows; i++) {
 
 src.close();
 
+
+9.
+
+* 
+* *       
+* * *     
+* * * *   
+* * * * * 
+* * * *   
+* * * 
+* *
+*
+
+ //Upper half
+for(int i =1 ; i<=5 ; i++){
+
+    for(int j = 1 ;j<=i ;j++){
+        System.out.print("* ");
+    }
+    System.out.println();
+}
+
+// Lower half
+for(int i =1 ; i<=4 ; i++){
+
+    for(int j = 4 ;j >= i;j--){
+
+        System.out.print("* ");
+    }
+    System.out.println();
+}
+
+
+
+10.
+
+1    1
+12  21
+123321
+
+
+int n= 3;
+
+for(int i =1 ; i<= n ;i++){
+    //number
+    for(int j=1 ; j<=i ;j++){
+        System.out.print(j);
+    }
+    //space
+    for(int j =1 ;j <= 2*(n-i);j++){
+        System.out.print(" ");
+    }
+
+      for(int k=i ; k>=1 ;k--){
+        System.out.print(k);
+    }
+    //number
+ 
+
+    System.out.println();
+}
+
+
+
+11.
+
+A
+A B
+A B C
+A B C D
+A B C D E
+
+
+
+
+int n = 5;
+
+for(int i =1 ; i<=n ;i++ ){
+    char ch ='A';
+    for(int j =1 ; j<=i ;j++){
+        System.out.print(ch+ " ");
+        ch++;
+    }
+    System.out.println();
+}
+
+
+
+11.
+
+ABCDE
+ABCD
+ABC
+AB
+A
+
+
+int n = 5;
+
+for(int i =1 ; i<=n ;i++ ){
+    char ch ='A';
+    for(int j = n ; j >=i ; j--){
+        System.out.print(ch);
+        ch++;
+    }
+    System.out.println();
+}
+
+
+
+12 .
+
+1 
+2 3 
+4 5 6 
+7 8 9 10       
+11 12 13 14 15 
+
+
+int n =5 ;
+int counter = 1 ;
+
+for( int i = 1 ;i <= n ; i++ ){
+
+    for(int j = 1 ; j <=i ;j++ ){
+
+        System.out.print(counter + " ");
+        counter++;
+    }
+    System.out.println();
+   
+
+
+}
+
+
 */
+
+
 
 //End    
 }
