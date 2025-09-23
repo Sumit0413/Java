@@ -267,7 +267,6 @@ for(int i =1 ; i<=4 ; i++){
 }
 
 
-
 10.
 
 1    1
@@ -383,9 +382,9 @@ for( int i = 1 ;i <= n ; i++ ){
         counter++;
     }
     System.out.println();
-   
 
 
+    
 }
 
 
