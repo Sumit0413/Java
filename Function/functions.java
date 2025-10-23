@@ -1,21 +1,25 @@
+import java.util.Scanner;  
+
 public class functions{
 
-    public static void main(String[] args){
-        System.out.println("Starting with functions ");
-        mynum();
-        num2(200 , 900);
+  public static void main(String[] args) {
+    sum();
+    
+  }
+    static void  sum(){
+
+        Scanner src = new Scanner(System.in);
+            
+        System.out.print("Print First Number : ");
+        int num1 =src.nextInt();
+        System.out.print("Print Second  Number : ");
+        int num2 =src.nextInt();
+        int Sum =num1 +num2;
+        System.out.println("Sum of Numbers are " + Sum);
 
     }
 
-        static void mynum() {
-            int i = 6;
-            int j=10;
-            int sum = i+j;
-            System.out.println(sum);
-        } 
+    
 
-        static void num2(int a ,int b ) {
-            int sum = a+b;
-            System.out.println(sum);
-        }
-    }
+
+}
