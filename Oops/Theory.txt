@@ -1,0 +1,33 @@
+
+1. What is Class ?
+
+It is a Userdefine Blueprint that help to create Object. It define the common function or 
+properties that can be used by multiple Objects . It always starts with a Capital letter.
+
+For example :
+
+A Car is a Class. It have some common properties like Color , Model , Brand , Speed etc.
+And some common functions like Start() , Stop() , Accelerate() , Brake() etc.
+So , we can create multiple Objects from the Car Class like Audi , Swift , Creata etc
+which are from diffrent brand but shares same properties .
+Each Object will have its own properties and can use the common functions defined in the Class.
+
+
+So in Short , Class is a Template of an object , and object is the  Instance / Real Thing of a Class.
+
+
+2. What is Object ?
+
+It is an Instance of a Class. It is created from the Class and have its own properties and
+can use the functions defined in the Class.
+
+For example :
+
+Car is a Class.
+Audi is an Object of Car Class.
+Swift is another Object of Car Class.
+Each Object will have its own properties like Color , Model , Brand , Speed etc.
+And can use the common functions like Start() , Stop() , Accelerate() , Brake() etc.
+So in Short , Object is the Real Thing / Instance of a Class.
+
+
